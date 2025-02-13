@@ -1,10 +1,12 @@
-import {
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/nextjs";
+// import {
+//   SignInButton,
+//   SignUpButton,
+//   SignedIn,
+//   SignedOut,
+//   UserButton,
+//   SignIn,
+//   SignUp,
+// } from "@clerk/nextjs";
 
 export default async function Home() {
   return (
@@ -25,13 +27,13 @@ export default async function Home() {
         }
       </p>
 
-      <SignedOut>
-        <SignInButton />
-        <SignUpButton />
+      {/* <SignedOut>
+        <SignIn />
+        <SignUp />
       </SignedOut>
       <SignedIn>
         <UserButton />
-      </SignedIn>
+      </SignedIn> */}
     </div>
   );
 }
